@@ -23,6 +23,13 @@
 .bg-buicuit{
     background-color: #fff4e7;
 }
+footer{
+    padding: 20px;
+    max-width: 1440px;
+    margin: 0 auto;
+    margin-top: 3rem;
+    text-align: center;
+}
 .description-font{
   font-size: 1rem;
 }
