@@ -1,1 +1,87 @@
-@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+*{
+    font-family: 'Lato' , sans-serif;
+    font-family: 'Open sans' sans-serif;
+    font-family: "Work Sans", sans-serif;
+}
+header {
+  background-color: #fff4e7;
+  padding: 50px 250px;
+}
+header nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav > ul {
+  display: flex;
+  justify-content: space-between;
+}
+nav > ul > li {
+  margin-left: 1rem;
+  list-style: none;
+}
+.headerDescription{
+    max-width: 862px;
+    margin: 0 auto;
+    text-align: center;
+}
+nav > ul > li a {
+  font-size: 1rem;
+  color: #424242;
+  text-decoration: none;
+}
+.bannerPera16 {
+  font-size: 1rem;
+  color: #424242;
+}
+.bannerTitle64 {
+  font-size: 3.5rem;
+  font-weight: 700;
+  margin: 29px 0;
+  color: #131313;
+}
+.headerTitle {
+  font-size: 2.7rem;
+  color: #131313;
+  font-weight: 700;
+}
+
+.explore-btn{
+    color: #fff4e7;
+    background-color: #FF900E;
+    padding: 15px 25px;
+    border: none;
+    border-radius: 10px;
+    font-size: 1.3rem;
+    font-weight: 650;
+}
+
+.banner-image{
+    width: 100%;
+    margin-top: 20px;
+}
+
+/* responsive media queries */
+
+@media screen and (max-width:576px) {
+    header{
+        padding: 20px;
+    }
+    nav{
+        flex-direction: column;
+    }
+    nav ul{
+        padding: 0;
+    }
+}
+@media screen and (min-width:576px) and (max-width:976px){
+    header{
+        padding: 20px;
+    }
+    nav{
+        flex-direction: column;
+    }
+    
+}
